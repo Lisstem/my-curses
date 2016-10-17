@@ -37,7 +37,7 @@ end
 
 begin
 	window = Window.new(0, 0, 10, 5, 'blub', 'Caption', Border.new('-', '|', '+'))
-	sleep(5)
+	FFI::NCurses.getch
 ensure
 	FFI::NCurses.endwin
 end

@@ -23,7 +23,7 @@ class Client
 		begin
 			puts('Enter nickname: ')
 			name = gets.chomp
-			puts("#{!("DISTRIBUTION=MINE;VERSION=PRE1;NAME=#{name}\n" =~ /^VERSION=[^={}()\[\]:,;]*;NAME=[^={}()\[\]:,;]*$/).nil?}")
+			puts("#{!("DISTRIBUTION=MINE;VERSION=PRE1;NAME=#{name}\n" =~ /^DISTRIBUTION=[^={}()\[\]:,;]*VERSION=[^={}()\[\]:,;]*;NAME=[^={}()\[\]:,;]*$/).nil?}")
 			socket.write("DISTRIBUTION=MINE;VERSION=PRE1;NAME=#{name}\n")
 		end while ((socket.gets =~ /^ACK.*$/).nil?)
 		@logger.info{"Successful registered as #{name}"}

@@ -7,7 +7,7 @@ class Canvas
 	FFI::NCurses.noecho
 	@@colors = nil
 	if (FFI::NCurses.has_colors)
-		@@colors = ColorManager.new
+		@@colors = ColorManager.new(@@stdscr)
 	end
 	@@focus = nil
 	@@windows = {}
