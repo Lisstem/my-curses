@@ -5,6 +5,8 @@ class Canvas
 	@@stdscr = FFI::NCurses.initscr  # start curses
 	FFI::NCurses.cbreak
 	FFI::NCurses.noecho
+	FFI::NCurses.keypad(@@stdscr, true)
+	FFI::NCurses.curs_set(0)
 	@@colors = nil
 	if (FFI::NCurses.has_colors)
 		@@colors = ColorManager.new(@@stdscr)
