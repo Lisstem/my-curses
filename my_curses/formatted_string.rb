@@ -4,4 +4,8 @@ class FormattedString
 		@string = string
 		@color = color
 	end
+
+	def to_s
+		return "<@string=\"#{string}\", @color=#{color}>"
+	end
 end
