@@ -16,26 +16,6 @@ class TextList < Component
 		@boxes = []
 		@text = ''
 		addText(text)
-		begin
-			file = File.open("dump.txt", "w")
-			i = 0
-			@boxes.each do |arr|
-				file.write("#{i} = {")
-				unless (arr.empty?)
-					arr.each do |xs, box|
-						file.write("#{xs} = #{box}, ")
-					end
-					file.seek(-2, IO::SEEK_CUR)
-				end
-				file.write("}\n")
-				i += 1
-			end
-			file.write("Lines = #{@scrollbar.size}")
-		rescue IOError => e
-			#some error occur, dir not writable etc.
-		ensure
-			file.close unless file.nil?
-		end
 	end
 
 	def addText(text)

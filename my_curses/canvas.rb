@@ -1,5 +1,6 @@
 require 'ffi-ncurses'
 require_relative 'color_manager'
+require_relative 'keyboard'
 
 class Canvas
 	@@stdscr = FFI::NCurses.initscr  # start curses
@@ -14,6 +15,7 @@ class Canvas
 	@@focus = nil
 	@@windows = {}
 	FFI::NCurses.wrefresh(@@stdscr)
+	@@keyboard = Keyboard.new
 
 
 	def self.rows
@@ -37,5 +39,9 @@ class Canvas
 			@@focus = window
 		end
 		return FFI::NCurses.derwin(@@stdscr, window.height, window.width, window.posY, window.posX)
+	end
+
+	def self.getKey
+		return @@keyboard.getKey
 	end
 end
