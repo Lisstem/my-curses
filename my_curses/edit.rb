@@ -2,10 +2,11 @@ require 'ffi-ncurses'
 require_relative 'component'
 
 class Edit < Component
-	attr_reader :width, :position, :text
+	attr_reader :width, :cursor, :text
 	def initialize(name, x, y, width)
 		super(name, x, y)
 		@width = width
+		@cursor = 0
 		@position = 0
 		@text = 'adjaskjdlh'
 	end
@@ -13,27 +14,61 @@ class Edit < Component
 	def onKeyDown(key)
 		case key
 			when FFI::NCurses::KeyDefs::KEY_LEFT
-				@position -= 1 unless (@position == 0)
+				unless (@cursor <= 0)
+					@cursor -= 1
+					if (@cursor <= @position && @position != 0)
+						@position -= 1
+					end
+				end
 			when FFI::NCurses::KeyDefs::KEY_RIGHT
-				@position += 1 unless (@position == @text.length)
+				unless (@cursor >= @text.length)
+					@cursor += 1
+					if (@cursor - @position >= @width)
+						@position += 1
+					end
+				end
+			when FFI::NCurses::KeyDefs::KEY_BACKSPACE, 8.chr('ASCII')
+				if (@cursor > 0)
+					@text.slice!(@cursor - 1)
+					@cursor -= 1
+					if (@cursor <= @position && @position != 0)
+						@position -= 1
+					end
+				end
+			when FFI::NCurses::KeyDefs::KEY_DC
+				if (@cursor < @text.length)
+					@text.slice!(@cursor)
+				end
+			when "\n"
+				@text.insert(@cursor, '\n')
+				@cursor += 2
+				if (@cursor - @position >= @width)
+					@position += 2
+				end
 			else
 				unless (key.is_a? Integer)
 					key = ' ' if (key == "\t")
-					@text += key
-					@position += 1
+					@text.insert(@cursor, key)
+					@cursor += 1
+					if (@cursor - @position >= @width)
+						@position += 1
+					end
 				end
 		end
+		return true
 	end
 
 	def refresh(window)
 		text = @text
-		if (text.length > @width)
-			text = text[0, @width - 1]
+		if (text.length - @position > @width)
+			text = text[@position, @width - 1]
 		else
-			text += ' ' * (@width - text.length)
+			text = text[@position, text.length]
 		end
+		text += ' ' * (@width - text.length) if (@width - text.length > 0)
 		FFI::NCurses.mvwaddstr(window, @posY, @posX, text)
-		FFI::NCurses.wmove(window, @posY , @posX + @position)
+		#FFI::NCurses.mvwaddstr(window, @posY - 1, @posX, '%3d:%3d' % [@position, @cursor])
+		FFI::NCurses.wmove(window, @posY , @posX + @cursor - @position)
 	end
 
 	def onFocusEnter

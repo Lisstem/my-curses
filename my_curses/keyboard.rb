@@ -22,23 +22,24 @@ class Keyboard
 		0.upto(63) do |n|
 			constants << "KEY_F#{n}"
 		end
-		retVal = []
+		retVal = {}
 		constants.each do |constant|
-			retVal <<  eval("FFI::NCurses::KeyDefs::#{constant}")
+			retVal[constant] = eval("FFI::NCurses::KeyDefs::#{constant}")
 		end
 		return retVal
 	end
 
 	def getKey
 		key = FFI::NCurses.getch
-		if (key < 128)
+		#puts(key)
+		if (key < 128 || key >= 256)
 			begin
 				key = key.chr
 			ensure
 				return key
 			end
 		end
-		return key if (@constants.include?(key))
+		#return key if (@constants.values.include?(key))
 		key = [key]
 		key << FFI::NCurses.getch
 		key << FFI::NCurses.getch if (key[0] >= 224)
@@ -58,13 +59,14 @@ end
 	FFI::NCurses.noecho
 	FFI::NCurses.keypad(stdscr, true)
 	file = File.open("keys.txt", "w")
-	keyTest = KeyTest.new
+	keyTest = Keyboard.new
 	keyTest.constants.each_pair do |key, value|
 		file.write("#{key} = #{value}\n")
 	end
 	while (true)
-		key = keyTest.getKey(stdscr)
-		if (key == 'q') # q
+		key = keyTest.getKey
+		#key = FFI::NCurses.getch
+		if (key == 'q') # q 113
 			break
 		end
 		file.write(key.to_s + "\n")

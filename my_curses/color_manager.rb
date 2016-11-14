@@ -5,9 +5,16 @@ class ColorManager
 		FFI::NCurses.start_color
 		FFI::NCurses.assume_default_colors(-1, -1)
 		@colors = {:default => 0}
+		@colorCount = FFI::NCurses.tigetnum('colors')
+		#printColor
+	end
 
+	def addColor
+
+	end
+
+	def printColor
 		begin
-			@colorCount = FFI::NCurses.tigetnum('colors')
 			puts(@colorCount)
 			puts(FFI::NCurses.tigetnum('pairs'))
 			1.upto @colorCount do |color|
@@ -18,10 +25,6 @@ class ColorManager
 		rescue => ex
 			puts(ex.message)
 		end
-	end
-
-	def addColor
-
 	end
 end
 
