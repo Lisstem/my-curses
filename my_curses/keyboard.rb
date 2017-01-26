@@ -2,7 +2,7 @@ require 'ffi-ncurses'
 
 class Keyboard
 	def initialize
-		@constants = getKeyConstants
+		#@constants = getKeyConstants
 	end
 
 	def getKeyConstants
@@ -60,9 +60,6 @@ end
 	FFI::NCurses.keypad(stdscr, true)
 	file = File.open("keys.txt", "w")
 	keyTest = Keyboard.new
-	keyTest.constants.each_pair do |key, value|
-		file.write("#{key} = #{value}\n")
-	end
 	while (true)
 		key = keyTest.getKey
 		#key = FFI::NCurses.getch

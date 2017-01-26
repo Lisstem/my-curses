@@ -14,7 +14,12 @@ class Border
 		@bottomRight = bottomRight.codepoints.first
 	end
 
+	def logMethod(name, params)
+		Canvas::LOGGER.debug{"Window##{@name}: #{name}(#{params.join(',')})"}
+	end
+
 	def refresh(window)
+		logMethod('refresh', [window])
 		FFI::NCurses.wborder(window, @left, @right, @top, @bottom, @topLeft, @topRight, @bottomLeft, @bottomRight)
 	end
 end

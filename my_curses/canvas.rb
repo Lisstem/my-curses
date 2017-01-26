@@ -1,8 +1,19 @@
 require 'ffi-ncurses'
+require 'logger'
 require_relative 'color_manager'
 require_relative 'keyboard'
 
 class Canvas
+	LOGGER = Logger.new(File.new("curses.log",'w'))
+	LOGGER.level = Logger::DEBUG
+	LOGGER.formatter = proc do |severity, datetime, progname, msg|
+		date_format = datetime.strftime('%Y-%m-%d %H:%M:%S')
+		if severity == 'INFO' or severity == 'WARN'
+			"[#{date_format}] #{severity}  (#{progname}): #{msg}\n"
+		else
+			"[#{date_format}] #{severity} (#{progname}): #{msg}\n"
+		end
+	end
 	@@stdscr = FFI::NCurses.initscr  # start curses
 	FFI::NCurses.cbreak
 	FFI::NCurses.noecho

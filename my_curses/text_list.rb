@@ -7,6 +7,7 @@ class TextList < Component
 	TEXT = false
 	attr_reader :height, :width, :text
 
+
 	def initialize(name, x, y, width,  height,text = '')
 		super(name, x, y)
 		@height = height
@@ -102,7 +103,6 @@ class TextList < Component
 		end
 	end
 
-
 	def onFocusEnter
 		super
 		if (@focusIntern == SCROLLBAR)
@@ -117,5 +117,17 @@ class TextList < Component
 			@scrollbar.onFocusExit
 		end
 		return true
+	end
+
+	methods = instance_methods(false)#.concat(self.class.superclass.instance_methods(false))
+	oldMethods = {}
+	Canvas::LOGGER.debug{"#{self}: logged methods: #{methods.join(', ')}"}
+	methods.each do |method|
+		oldMethods[method] = instance_method(method)
+		define_method method do |*args|
+			tmp = oldMethods[method].bind(self).call(*args)
+			Canvas::LOGGER.debug{"<#{self.class}:#{self.name}>: #{method}(#{args.join(', ')}) => #{tmp}"}
+			return tmp
+		end
 	end
 end
