@@ -27,6 +27,7 @@ class Canvas
 	@@windows = {}
 	FFI::NCurses.wrefresh(@@stdscr)
 	@@keyboard = Keyboard.new
+	@@logDepth = 0;
 
 
 	def self.rows
@@ -54,5 +55,20 @@ class Canvas
 
 	def self.getKey
 		return @@keyboard.getKey
+	end
+
+	def self.update
+		LOGGER.debug{"#{"\t" * @@logDepth}<Canvas>: Updated terminal."}
+		FFI::NCurses.doupdate
+	end
+
+	def self.logMethod(clas, name, method, *args)
+		Canvas::LOGGER.debug{"#{"\t" * @@logDepth}<#{clas}:#{name}>: #{method}(#{args.join(', ')}) {"}
+		@@logDepth += 1
+	end
+
+	def self.logReturn(returnValue)
+		@@logDepth -= 1
+		Canvas::LOGGER.debug("#{"\t" * @@logDepth}} => #{returnValue}")
 	end
 end

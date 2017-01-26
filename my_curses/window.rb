@@ -38,7 +38,6 @@ class Window < Component
 			@border.refresh(@main)
 		end
 		FFI::NCurses.mvwaddstr(@main, 0, 2, @caption[0, @width - 3])
-		FFI::NCurses.doupdate
 	end
 
 	def add(component, focusAble = false)
@@ -51,26 +50,38 @@ class Window < Component
 		end
 	end
 
-	def focus=(value)
+	def setFocus(value)
+		tmp = false
 		unless (@focusList[@focusIntern].nil?)
-			@focusList[@focusIntern].onFocusExit
-			@focusList[@focusIntern].refresh(@content)
+			if (@focusList[@focusIntern].onFocusExit)
+				@focusList[@focusIntern].refresh(@content)
+				tmp = true
+			end
 		end
 		@focusIntern = value
 		unless (@focusList[@focusIntern].nil?)
-			tmp = @focusList[@focusIntern].onFocusEnter
+			if (@focusList[@focusIntern].onFocusEnter)
+				@focusList[@focusIntern].refresh(@content)
+				tmp = true
+			end
 			@focusList[@focusIntern].refresh(@content)
-			return tmp;
 		end
-		return false
+		if (tmp)
+			if (@border.nil?)
+				FFI::NCurses.pnoutrefresh(@content, 0, 0, 0, 0, @height, @width)
+			else
+				FFI::NCurses.pnoutrefresh(@content, 0, 0, 1, 1, @height - 2, @width - 2)
+			end
+		end
+		return tmp
 	end
 
 	def focusNext
 		nex = @focusIntern + 1
-		if (nex > @focusList.count)
+		if (nex >= @focusList.count)
 			nex = 0
 		end
-		return self.focus = nex
+		return setFocus(nex)
 	end
 
 	def focusPrevious
@@ -78,7 +89,7 @@ class Window < Component
 		if (nex < 0)
 			nex = @focusList.count - 1
 		end
-		return self.focus = nex
+		return setFocus(nex)
 	end
 
 	def focus
@@ -119,14 +130,15 @@ class Window < Component
 		return false
 	end
 
-	methods = instance_methods(false)#.concat(self.class.superclass.instance_methods(false))
+	methods = instance_methods(false)
 	oldMethods = {}
 	Canvas::LOGGER.debug{"#{self}: logged methods: #{methods.join(', ')}"}
 	methods.each do |method|
 		oldMethods[method] = instance_method(method)
 		define_method method do |*args|
+			Canvas.logMethod(self.class, self.name, method, args)
 			tmp = oldMethods[method].bind(self).call(*args)
-			Canvas::LOGGER.debug{"<#{self.class}:#{self.name}>: #{method}(#{args.join(', ')}) => #{tmp}"}
+			Canvas.logReturn(tmp)
 			return tmp
 		end
 	end

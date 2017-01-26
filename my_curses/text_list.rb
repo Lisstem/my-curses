@@ -29,7 +29,6 @@ class TextList < Component
 			@boxes[y] = []
 			value.each do |string|
 				string = string.strip
-				#while (string.length > 0)
 				if (x + string.length >= @width - 1)
 					if (@width - x < 4)
 						@boxes[y] << [x, FormattedString.new(' ' * (@width - x - 1))]
@@ -61,7 +60,9 @@ class TextList < Component
 		start = @scrollbar.position - @height / 2
 		start = (start > 0) ? start : 0
 		0.upto(@height - 1) do |y|
-			FFI::NCurses.wattron(window, FFI::NCurses::WA_REVERSE) if (@focus && @focusIntern == TEXT && start + y == @scrollbar.position)
+			if (@focus && @focusIntern == TEXT && start + y == @scrollbar.position)
+				FFI::NCurses.wattron(window, FFI::NCurses::WA_REVERSE)
+			end
 			line = @boxes[start + y]
 			if (line.nil?)
 				FFI::NCurses.mvwaddstr(window, @posY + y, @posX + 1, ' ' * (@width - 1))
@@ -70,7 +71,9 @@ class TextList < Component
 					FFI::NCurses.mvwaddstr(window, @posY + y, @posX + x + 1, box.string)
 				end
 			end
-			FFI::NCurses.wattroff(window, FFI::NCurses::WA_REVERSE) if (@focus &&  @focusIntern == TEXT && start + y == @scrollbar.position)
+			if (@focus &&  @focusIntern == TEXT && start + y == @scrollbar.position)
+				FFI::NCurses.wattroff(window, FFI::NCurses::WA_REVERSE)
+			end
 		end
 	end
 
@@ -119,14 +122,15 @@ class TextList < Component
 		return true
 	end
 
-	methods = instance_methods(false)#.concat(self.class.superclass.instance_methods(false))
+	methods = instance_methods(false)
 	oldMethods = {}
 	Canvas::LOGGER.debug{"#{self}: logged methods: #{methods.join(', ')}"}
 	methods.each do |method|
 		oldMethods[method] = instance_method(method)
 		define_method method do |*args|
+			Canvas.logMethod(self.class, self.name, method, args)
 			tmp = oldMethods[method].bind(self).call(*args)
-			Canvas::LOGGER.debug{"<#{self.class}:#{self.name}>: #{method}(#{args.join(', ')}) => #{tmp}"}
+			Canvas.logReturn(tmp)
 			return tmp
 		end
 	end

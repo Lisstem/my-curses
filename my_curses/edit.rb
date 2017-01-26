@@ -77,14 +77,15 @@ class Edit < Component
 		return false
 	end
 
-	methods = instance_methods(false)#.concat(self.class.superclass.instance_methods(false))
+	methods = instance_methods(false)
 	oldMethods = {}
 	Canvas::LOGGER.debug{"#{self}: logged methods: #{methods.join(', ')}"}
 	methods.each do |method|
 		oldMethods[method] = instance_method(method)
 		define_method method do |*args|
+			Canvas.logMethod(self.class, self.name, method, args)
 			tmp = oldMethods[method].bind(self).call(*args)
-			Canvas::LOGGER.debug{"<#{self.class}:#{self.name}>: #{method}(#{args.join(', ')}) => #{tmp}"}
+			Canvas.logReturn(tmp)
 			return tmp
 		end
 	end
