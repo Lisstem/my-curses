@@ -3,12 +3,12 @@ require_relative 'component'
 
 class Edit < Component
 	attr_reader :width, :cursor, :text
-	def initialize(name, x, y, width)
+	def initialize(name, x, y, width, text = '')
 		super(name, x, y)
 		@width = width
 		@cursor = 0
 		@position = 0
-		@text = 'adjaskjdlh'
+		@text = text
 	end
 
 	def onKeyDown(key)

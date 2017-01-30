@@ -1,9 +1,7 @@
 require 'ffi-ncurses'
-require 'logger'
 require_relative 'canvas'
 require_relative 'border'
 require_relative 'component'
-require_relative 'methodLogger'
 
 class Window < Component
 	attr_reader :width, :height, :caption
