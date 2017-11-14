@@ -74,7 +74,12 @@ class Edit < Component
 	def onFocusEnter
 		super
 		FFI::NCurses.curs_set(1)
-		return false
+		return true
+	end
+
+	def onFocusExit
+		super
+		return true
 	end
 
 	methods = instance_methods(false)

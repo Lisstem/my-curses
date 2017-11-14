@@ -1,5 +1,5 @@
 require 'ffi-ncurses'
-require_relative 'label.rb'
+require_relative 'component.rb'
 
 class Button < Component
 	attr_reader :width, :width, :text
@@ -66,8 +66,6 @@ class Button < Component
 	end
 
 	def onEnter
-		@boxes = []
-		@text = ''
 		setText('blub')
 		return true
 	end

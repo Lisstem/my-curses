@@ -21,7 +21,7 @@ class Canvas
 	FFI::NCurses.curs_set(0)
 	@@colors = nil
 	if (FFI::NCurses.has_colors)
-		@@colors = ColorManager.new(@@stdscr)
+		@@colors = Color.new(@@stdscr)
 	end
 	@@focus = nil
 	@@windows = {}

@@ -32,8 +32,8 @@ class Window < Component
 		if (@border.nil?)
 			FFI::NCurses.pnoutrefresh(@content, 0, 0, 0, 0, @height, @width)
 		else
-			FFI::NCurses.pnoutrefresh(@content, 0, 0, 1, 1, @height - 2, @width - 2)
 			@border.refresh(@main)
+			FFI::NCurses.pnoutrefresh(@content, 0, 0, 1, 1, @height - 2, @width - 2)
 		end
 		FFI::NCurses.mvwaddstr(@main, 0, 2, @caption[0, @width - 3])
 	end
@@ -62,7 +62,6 @@ class Window < Component
 				@focusList[@focusIntern].refresh(@content)
 				tmp = true
 			end
-			@focusList[@focusIntern].refresh(@content)
 		end
 		if (tmp)
 			if (@border.nil?)

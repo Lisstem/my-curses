@@ -1,0 +1,1257 @@
+[2017-02-09 19:39:38] DEBUG (): Border: logged methods: refresh
+[2017-02-09 19:39:38] DEBUG (): Window: logged methods: add, refresh, width, onKeyDown, height, caption, setFocus, focusNext, focusPrevious, onFocusEnter, focus
+[2017-02-09 19:39:38] DEBUG (): Edit: logged methods: text, refresh, width, onKeyDown, onFocusExit, onFocusEnter, cursor
+[2017-02-09 19:39:38] DEBUG (): Label: logged methods: text, refresh, width, setText
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: height() {
+[2017-02-09 19:39:38] DEBUG (): } => 20
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: width() {
+[2017-02-09 19:39:38] DEBUG (): } => 40
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 	<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <Label:label>: setText(  red
+
+green
+
+ blue) {
+[2017-02-09 19:39:38] DEBUG (): ["  red", "", "green", "", " blue"]
+[2017-02-09 19:39:38] DEBUG (): [[[0, #<FormattedString:0x005618d8b5a030 @string="  red", @color=nil>]], [[0, #<FormattedString:0x005618d8b59f40 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b59e50 @string="green", @color=nil>]], [[0, #<FormattedString:0x005618d8b59d60 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b59c70 @string=" blue", @color=nil>]]]
+[2017-02-09 19:39:38] DEBUG (): } => 
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: add(#<Label:0x005618d8b5a968>, false) {
+[2017-02-09 19:39:38] DEBUG (): 	<ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 		<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: add(#<Edit:0x005618d87fe5f8>, true) {
+[2017-02-09 19:39:38] DEBUG (): 	<ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 		<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: add(#<Edit:0x005618d8b67348>, true) {
+[2017-02-09 19:39:38] DEBUG (): 	<ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 		<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: add(#<Edit:0x005618d8b64738>, true) {
+[2017-02-09 19:39:38] DEBUG (): 	<ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 		<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <Label:color>: setText(                         ) {
+[2017-02-09 19:39:38] DEBUG (): ["                         "]
+[2017-02-09 19:39:38] DEBUG (): [[[0, #<FormattedString:0x005618d8b6ee68 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b6ed50 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b6ec38 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b6eb20 @string="     ", @color=nil>]], [[0, #<FormattedString:0x005618d8b6ea08 @string=" ", @color=nil>], [1, #<FormattedString:0x005618d8b6e968 @string="    ", @color=nil>]]]
+[2017-02-09 19:39:38] DEBUG (): } => 
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: add(#<Label:0x005618d8b6f688>) {
+[2017-02-09 19:39:38] DEBUG (): 	<ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 		<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Label:color>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 		<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 		} => 0
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): #<Edit:0x005618d87fe5f8>
+[2017-02-09 19:39:38] DEBUG (): #<Edit:0x005618d8b67348>
+[2017-02-09 19:39:38] DEBUG (): #<Edit:0x005618d8b64738>
+[2017-02-09 19:39:38] DEBUG (): [#<Edit:0x005618d87fe5f8 @name=:red, @posX=6, @posY=0, @focus=false, @width=4, @cursor=0, @position=0, @text="0">, #<Edit:0x005618d8b67348 @name=:green, @posX=6, @posY=2, @focus=false, @width=4, @cursor=0, @position=0, @text="0">, #<Edit:0x005618d8b64738 @name=:blue, @posX=6, @posY=4, @focus=false, @width=4, @cursor=0, @position=0, @text="0">]
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: setFocus(0) {
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:38] DEBUG (): 	} => true
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:red>: onFocusEnter() {
+[2017-02-09 19:39:38] DEBUG (): 	} => true
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => true
+[2017-02-09 19:39:38] DEBUG (): <ColorPicker:window>: refresh() {
+[2017-02-09 19:39:38] DEBUG (): 	<Label:label>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Label:color>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): 	<Border:>: refresh(#<FFI::Pointer address=0x005618d8b564f0>) {
+[2017-02-09 19:39:38] DEBUG (): 	} => 0
+[2017-02-09 19:39:38] DEBUG (): } => 0
+[2017-02-09 19:39:38] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:40] DEBUG (): <Edit:red>: onKeyDown(260) {
+[2017-02-09 19:39:40] DEBUG (): } => true
+[2017-02-09 19:39:40] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:40] DEBUG (): } => 0
+[2017-02-09 19:39:40] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:41] DEBUG (): <Edit:red>: onKeyDown(261) {
+[2017-02-09 19:39:41] DEBUG (): } => true
+[2017-02-09 19:39:41] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:41] DEBUG (): } => 0
+[2017-02-09 19:39:41] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:41] DEBUG (): <Edit:red>: onKeyDown(260) {
+[2017-02-09 19:39:41] DEBUG (): } => true
+[2017-02-09 19:39:41] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:41] DEBUG (): } => 0
+[2017-02-09 19:39:41] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: onKeyDown(261) {
+[2017-02-09 19:39:42] DEBUG (): } => true
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:42] DEBUG (): } => 0
+[2017-02-09 19:39:42] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: onKeyDown(261) {
+[2017-02-09 19:39:42] DEBUG (): } => true
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:42] DEBUG (): } => 0
+[2017-02-09 19:39:42] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: onKeyDown(261) {
+[2017-02-09 19:39:42] DEBUG (): } => true
+[2017-02-09 19:39:42] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:42] DEBUG (): } => 0
+[2017-02-09 19:39:42] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:42] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:42] DEBUG (): 	<ColorPicker:window>: setFocus(1) {
+[2017-02-09 19:39:42] DEBUG (): 		<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:42] DEBUG (): 		} => true
+[2017-02-09 19:39:42] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:42] DEBUG (): 		} => 0
+[2017-02-09 19:39:42] DEBUG (): 		<Edit:green>: onFocusEnter() {
+[2017-02-09 19:39:42] DEBUG (): 		} => true
+[2017-02-09 19:39:42] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:42] DEBUG (): 		} => 0
+[2017-02-09 19:39:42] DEBUG (): 	} => true
+[2017-02-09 19:39:42] DEBUG (): } => true
+[2017-02-09 19:39:42] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:43] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:43] DEBUG (): 	<ColorPicker:window>: setFocus(2) {
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:green>: onFocusExit() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:blue>: onFocusEnter() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 	} => true
+[2017-02-09 19:39:43] DEBUG (): } => true
+[2017-02-09 19:39:43] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:43] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:43] DEBUG (): 	<ColorPicker:window>: setFocus(0) {
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:blue>: onFocusExit() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:red>: onFocusEnter() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 	} => true
+[2017-02-09 19:39:43] DEBUG (): } => true
+[2017-02-09 19:39:43] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:43] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:43] DEBUG (): 	<ColorPicker:window>: setFocus(1) {
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:green>: onFocusEnter() {
+[2017-02-09 19:39:43] DEBUG (): 		} => true
+[2017-02-09 19:39:43] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:43] DEBUG (): 		} => 0
+[2017-02-09 19:39:43] DEBUG (): 	} => true
+[2017-02-09 19:39:43] DEBUG (): } => true
+[2017-02-09 19:39:43] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:44] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:44] DEBUG (): 	<ColorPicker:window>: setFocus(2) {
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:green>: onFocusExit() {
+[2017-02-09 19:39:44] DEBUG (): 		} => true
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:44] DEBUG (): 		} => 0
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:blue>: onFocusEnter() {
+[2017-02-09 19:39:44] DEBUG (): 		} => true
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:44] DEBUG (): 		} => 0
+[2017-02-09 19:39:44] DEBUG (): 	} => true
+[2017-02-09 19:39:44] DEBUG (): } => true
+[2017-02-09 19:39:44] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:44] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:44] DEBUG (): 	<ColorPicker:window>: setFocus(0) {
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:blue>: onFocusExit() {
+[2017-02-09 19:39:44] DEBUG (): 		} => true
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:44] DEBUG (): 		} => 0
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:red>: onFocusEnter() {
+[2017-02-09 19:39:44] DEBUG (): 		} => true
+[2017-02-09 19:39:44] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:44] DEBUG (): 		} => 0
+[2017-02-09 19:39:44] DEBUG (): 	} => true
+[2017-02-09 19:39:44] DEBUG (): } => true
+[2017-02-09 19:39:44] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(a) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(s) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(d) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(j) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(l) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(k) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: onKeyDown(a) {
+[2017-02-09 19:39:45] DEBUG (): } => true
+[2017-02-09 19:39:45] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:45] DEBUG (): } => 0
+[2017-02-09 19:39:45] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:46] DEBUG (): <Edit:red>: onKeyDown(a) {
+[2017-02-09 19:39:46] DEBUG (): } => true
+[2017-02-09 19:39:46] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:46] DEBUG (): } => 0
+[2017-02-09 19:39:46] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(s) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(d) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(j) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(l) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(a) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(s) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: onKeyDown(d) {
+[2017-02-09 19:39:47] DEBUG (): } => true
+[2017-02-09 19:39:47] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:47] DEBUG (): } => 0
+[2017-02-09 19:39:47] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:48] DEBUG (): } => true
+[2017-02-09 19:39:48] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:48] DEBUG (): } => 0
+[2017-02-09 19:39:48] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: onKeyDown(263) {
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): } => 0
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:49] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:49] DEBUG (): 	<ColorPicker:window>: setFocus(1) {
+[2017-02-09 19:39:49] DEBUG (): 		<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:49] DEBUG (): 		} => true
+[2017-02-09 19:39:49] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): 		} => 0
+[2017-02-09 19:39:49] DEBUG (): 		<Edit:green>: onFocusEnter() {
+[2017-02-09 19:39:49] DEBUG (): 		} => true
+[2017-02-09 19:39:49] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:49] DEBUG (): 		} => 0
+[2017-02-09 19:39:49] DEBUG (): 	} => true
+[2017-02-09 19:39:49] DEBUG (): } => true
+[2017-02-09 19:39:49] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:50] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:50] DEBUG (): 	<ColorPicker:window>: setFocus(2) {
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:green>: onFocusExit() {
+[2017-02-09 19:39:50] DEBUG (): 		} => true
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:50] DEBUG (): 		} => 0
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:blue>: onFocusEnter() {
+[2017-02-09 19:39:50] DEBUG (): 		} => true
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:50] DEBUG (): 		} => 0
+[2017-02-09 19:39:50] DEBUG (): 	} => true
+[2017-02-09 19:39:50] DEBUG (): } => true
+[2017-02-09 19:39:50] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:50] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:50] DEBUG (): 	<ColorPicker:window>: setFocus(0) {
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:blue>: onFocusExit() {
+[2017-02-09 19:39:50] DEBUG (): 		} => true
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:50] DEBUG (): 		} => 0
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:red>: onFocusEnter() {
+[2017-02-09 19:39:50] DEBUG (): 		} => true
+[2017-02-09 19:39:50] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:50] DEBUG (): 		} => 0
+[2017-02-09 19:39:50] DEBUG (): 	} => true
+[2017-02-09 19:39:50] DEBUG (): } => true
+[2017-02-09 19:39:50] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:51] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:51] DEBUG (): 	<ColorPicker:window>: setFocus(1) {
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:51] DEBUG (): 		} => true
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:51] DEBUG (): 		} => 0
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:green>: onFocusEnter() {
+[2017-02-09 19:39:51] DEBUG (): 		} => true
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:51] DEBUG (): 		} => 0
+[2017-02-09 19:39:51] DEBUG (): 	} => true
+[2017-02-09 19:39:51] DEBUG (): } => true
+[2017-02-09 19:39:51] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:51] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:51] DEBUG (): 	<ColorPicker:window>: setFocus(2) {
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:green>: onFocusExit() {
+[2017-02-09 19:39:51] DEBUG (): 		} => true
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:51] DEBUG (): 		} => 0
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:blue>: onFocusEnter() {
+[2017-02-09 19:39:51] DEBUG (): 		} => true
+[2017-02-09 19:39:51] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:51] DEBUG (): 		} => 0
+[2017-02-09 19:39:51] DEBUG (): 	} => true
+[2017-02-09 19:39:51] DEBUG (): } => true
+[2017-02-09 19:39:51] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:52] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:52] DEBUG (): 	<ColorPicker:window>: setFocus(0) {
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:blue>: onFocusExit() {
+[2017-02-09 19:39:52] DEBUG (): 		} => true
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:blue>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:52] DEBUG (): 		} => 0
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:red>: onFocusEnter() {
+[2017-02-09 19:39:52] DEBUG (): 		} => true
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:52] DEBUG (): 		} => 0
+[2017-02-09 19:39:52] DEBUG (): 	} => true
+[2017-02-09 19:39:52] DEBUG (): } => true
+[2017-02-09 19:39:52] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:52] DEBUG (): <ColorPicker:window>: focusNext() {
+[2017-02-09 19:39:52] DEBUG (): 	<ColorPicker:window>: setFocus(1) {
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:red>: onFocusExit() {
+[2017-02-09 19:39:52] DEBUG (): 		} => true
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:red>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:52] DEBUG (): 		} => 0
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:green>: onFocusEnter() {
+[2017-02-09 19:39:52] DEBUG (): 		} => true
+[2017-02-09 19:39:52] DEBUG (): 		<Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:52] DEBUG (): 		} => 0
+[2017-02-09 19:39:52] DEBUG (): 	} => true
+[2017-02-09 19:39:52] DEBUG (): } => true
+[2017-02-09 19:39:52] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:54] DEBUG (): <Edit:green>: onKeyDown(a) {
+[2017-02-09 19:39:54] DEBUG (): } => true
+[2017-02-09 19:39:54] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:54] DEBUG (): } => 0
+[2017-02-09 19:39:54] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:57] DEBUG (): } => true
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:57] DEBUG (): } => 0
+[2017-02-09 19:39:57] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:57] DEBUG (): } => true
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:57] DEBUG (): } => 0
+[2017-02-09 19:39:57] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:57] DEBUG (): } => true
+[2017-02-09 19:39:57] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:57] DEBUG (): } => 0
+[2017-02-09 19:39:57] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(c) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(x) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(x) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:58] DEBUG (): } => true
+[2017-02-09 19:39:58] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:58] DEBUG (): } => 0
+[2017-02-09 19:39:58] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(x) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(x) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown( ) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:39:59] DEBUG (): } => true
+[2017-02-09 19:39:59] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:39:59] DEBUG (): } => 0
+[2017-02-09 19:39:59] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(x) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(f) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(f) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(v) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(f) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:40:00] DEBUG (): } => true
+[2017-02-09 19:40:00] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:00] DEBUG (): } => 0
+[2017-02-09 19:40:00] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:02] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:02] DEBUG (): } => true
+[2017-02-09 19:40:02] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:02] DEBUG (): } => 0
+[2017-02-09 19:40:02] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: onKeyDown(a) {
+[2017-02-09 19:40:03] DEBUG (): } => true
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:03] DEBUG (): } => 0
+[2017-02-09 19:40:03] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: onKeyDown(s) {
+[2017-02-09 19:40:03] DEBUG (): } => true
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:03] DEBUG (): } => 0
+[2017-02-09 19:40:03] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: onKeyDown(d) {
+[2017-02-09 19:40:03] DEBUG (): } => true
+[2017-02-09 19:40:03] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:03] DEBUG (): } => 0
+[2017-02-09 19:40:03] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:06] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:06] DEBUG (): } => true
+[2017-02-09 19:40:06] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:06] DEBUG (): } => 0
+[2017-02-09 19:40:06] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:06] DEBUG (): <Edit:green>: onKeyDown(a) {
+[2017-02-09 19:40:06] DEBUG (): } => true
+[2017-02-09 19:40:06] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:06] DEBUG (): } => 0
+[2017-02-09 19:40:06] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:08] DEBUG (): <Edit:green>: onKeyDown(330) {
+[2017-02-09 19:40:08] DEBUG (): } => true
+[2017-02-09 19:40:08] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:08] DEBUG (): } => 0
+[2017-02-09 19:40:08] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:17] DEBUG (): } => true
+[2017-02-09 19:40:17] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:17] DEBUG (): } => 0
+[2017-02-09 19:40:17] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:18] DEBUG (): } => true
+[2017-02-09 19:40:18] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:18] DEBUG (): } => 0
+[2017-02-09 19:40:18] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:19] DEBUG (): } => true
+[2017-02-09 19:40:19] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:19] DEBUG (): } => 0
+[2017-02-09 19:40:19] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:20] DEBUG (): } => true
+[2017-02-09 19:40:20] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:20] DEBUG (): } => 0
+[2017-02-09 19:40:20] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(261) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: onKeyDown(260) {
+[2017-02-09 19:40:21] DEBUG (): } => true
+[2017-02-09 19:40:21] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:21] DEBUG (): } => 0
+[2017-02-09 19:40:21] DEBUG (): <Canvas>: Updated terminal.
+[2017-02-09 19:40:22] DEBUG (): <Edit:green>: onKeyDown(:) {
+[2017-02-09 19:40:22] DEBUG (): } => true
+[2017-02-09 19:40:22] DEBUG (): <Edit:green>: refresh(#<FFI::Pointer address=0x005618d8b567f0>) {
+[2017-02-09 19:40:22] DEBUG (): } => 0
+[2017-02-09 19:40:22] DEBUG (): <Canvas>: Updated terminal.
